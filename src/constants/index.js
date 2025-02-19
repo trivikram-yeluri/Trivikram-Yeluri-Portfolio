@@ -147,7 +147,7 @@ export const educationList = [
   {
     id: "education-2",
     icon: pba,
-    title: "Subharti niversity",
+    title: " niversity",
     degree: "Bachelor in Maths",
     duration: "May 2023 - Apr 2026",
     content1: "Minor: Maths",
