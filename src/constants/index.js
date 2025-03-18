@@ -17,7 +17,7 @@ import {
   oracle,
   comicify_ai,
   greentrust,
-  averlon,
+  HTS,
   devfolio,
   pba,
   ethglobal,
@@ -26,7 +26,8 @@ import {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  averlon
 } from "../assets";
 
 import {
@@ -321,14 +322,43 @@ export const skills = [
 
 // Add your current/past professional work experience here
 export const experiences = [
+  
   {
-    organisation: "Unified Mentor, India",
+    organisation: "HTS Tech Solutions, Pune(Maharashtra) India",
+    logo: HTS,
+    link: "https://htstechsolutions.com/",
+    positions: [
+      {
+        title: "Artificial Intelligence Intern(On-site)",
+        duration: "March 2025 - Present",
+        content: [
+          {
+            text: "",
+            link: "",
+          },
+        ],
+      },
+      {
+        
+        
+        content: [
+          
+          {
+            text: " currently working on a Computer Vision project. and building real-world AI solutions while sharpening problem-solving skills.",
+            link: ""
+          }
+        ],
+      },
+    ],
+  },
+  {
+    organisation: "Unified Mentor,Gurugram(Haryana) India",
     logo: oracle,
     link: "https://www.unifiedmentor.com/",
     positions: [
       {
-        title: "Machine Learning Intern",
-        duration: "Nov 2024 - Present",
+        title: "Machine Learning Intern(Remote)",
+        duration: "Nov 2024 - Feb 2025",
         content: [
           {
             text: "Working in the AI team, building scalable ML pipelines and predictive models.",
@@ -337,12 +367,12 @@ export const experiences = [
         ],
       },
       {
-        title: "Member of Unified Mentor",
+        title: "Member of Unified Mentor(Remote)",
         duration: "Aug 2024 - Oct 2024",
         content: [
           
           {
-            text: "Worked on hands-on ML projects, gained mentorship, and built real-world AI solutions while sharpening problem-solving skills.",
+            text: "Worked on hands-on ML projects, gained mentorship, and built end to end ML projects and improved problem-solving skills.",
             link: ""
           }
         ],
@@ -350,12 +380,12 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Exposys Data Labs",
+    organisation: "Exposys Data Labs,Bengaluru(Karnataka) India",
     logo: averlon,
     link: "https://www.exposysdata.com/",
     positions: [
       {
-        title: "Software Developer Intern",
+        title: "Software Developer Intern(Remote)",
         duration: " Dec 2024 - Feb 2025",
         content: [
           {
@@ -371,7 +401,7 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Igniters, IITM BS",
+    organisation: "Igniters, IITM BS Chennai(Tamil Nadu) India",
     logo: iris,
     link: "https://igniters.devvoy.com/",
     positions: [
@@ -389,9 +419,6 @@ export const experiences = [
           },
         ],
       },
-      
-      
-    
     ],
   }
 ];
@@ -649,8 +676,8 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Sumit Kumar",
     githubUsername: 'SumitKumar005',
-    tagLine: "Data Science and Software Development Intern | IIT Madras'27",
-    intro: "Data Science and Software Development Intern with hands-on experience in machine learning, full-stack development, and generative AI, including LLMs, RAG, and vector databases. Proficient in Python, TensorFlow, FastAPI, and cloud platforms (AWS, GCP). Adept at building AI-driven solutions, particularly in healthcare, automation, and finance."
+    tagLine: "AI/ML and Software Development Intern | IIT Madras'27",
+    intro: "AI/ML and Software Development Intern with hands-on experience in machine learning, full-stack development, and generative AI, including LLMs, RAG, and vector databases. Proficient in Python, TensorFlow, FastAPI, and cloud platforms (AWS, GCP). Adept at building AI-driven solutions, particularly in healthcare, automation, and finance."
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.

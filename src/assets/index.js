@@ -4,7 +4,7 @@ import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
-import star from "./Star.svg";
+
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
@@ -37,6 +37,7 @@ import huntly from "./huntly.png";
 import oracle from "./oracle.jpg";
 import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
+import HTS from "./HTS.jpg";
 import averlon from "./averlon.jpg";
 import devfolio from "./devfolio.png";
 import pba from "./pba_logo.jpeg";
@@ -53,7 +54,7 @@ export {
   robot,
   send,
   shield,
-  star,
+ 
   menu,
   close,
   google,
@@ -88,6 +89,7 @@ export {
   oracle,
   comicify_ai,
   greentrust,
+  HTS,
   averlon,
   devfolio,
   pba,
