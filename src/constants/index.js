@@ -358,7 +358,7 @@ export const experiences = [
     positions: [
       {
         title: "Machine Learning Intern(Remote)",
-        duration: "Nov 2024 - Feb 2025",
+        duration: "Dec 2024 - Feb 2025",
         content: [
           {
             text: "Working in the AI team, building scalable ML pipelines and predictive models.",
@@ -368,7 +368,7 @@ export const experiences = [
       },
       {
         title: "Member of Unified Mentor(Remote)",
-        duration: "Aug 2024 - Oct 2024",
+        duration: "Sep 2024 - Nov 2024",
         content: [
           
           {
@@ -386,7 +386,7 @@ export const experiences = [
     positions: [
       {
         title: "Software Developer Intern(Remote)",
-        duration: " Dec 2024 - Feb 2025",
+        duration: " Nov 2024 - Jan 2025",
         content: [
           {
             text: "Built and optimized backend services, enhancing system performance and scalability. Worked on integrating APIs, improving database efficiency, and implementing robust solutions for real-world applications.",
