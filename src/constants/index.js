@@ -59,6 +59,7 @@ import {
   SiNetlify,
   SiChartdotjs,
   SiVite,
+  SiSqlite,
   SiArduino,
   SiWeb3Dotjs,
   SiIpfs,
@@ -72,6 +73,12 @@ import {
   SiGooglemaps,
   SiMilvus,
   SiOpenai,
+  SiWireshark,
+  SiSplunk,
+  SiSwagger,
+  SiJira,
+  SiKalilinux,
+  
   SiGooglecloud,
   SiNextdotjs,
   SiTensorflow,
@@ -99,12 +106,29 @@ import {
   FaGolang
 } from "react-icons/fa6";
 
+import {
+  MdBugReport,
+  MdSecurity,
+  MdOutlineManageSearch,
+  MdOutlineAssessment,
+  MdFindInPage,
+  MdOutlineApi,
+} from 'react-icons/md';
+
+import {
+  FaNetworkWired,
+  FaSearch,
+  FaClipboardCheck,
+  FaShieldAlt,
+} from 'react-icons/fa';
+
+
 import { DiCss3, DiJava, DiMsqlServer} from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1g-Vr2YTT8w-6rLyd97KzCyUN40FR8V01/view?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/1fJP9y5D2F519d5tRyxOmkKtrpAbS6Bg7/view";
 export const repoLink = "";
 
-export const callToAction = "https://www.linkedin.com/in/sumit-kumar-02a145239/";
+export const callToAction = "https://www.linkedin.com/in/trivikram-yeluri/";
 
 export const navLinks = [
   {
@@ -142,20 +166,13 @@ export const educationList = [
   {
     id: "education-1",
     icon: nitk,
-    title: " Indian Institute of Technology Madras,  Chennai, Tamil Nadu",
-    degree: "Bachelor of Science",
-    duration: "Jan 2024 - May 2027",
-    content1: "Major: Data Science",
+    title: " Chalapathi Institute of Engineering and Technology, Guntur",
+    degree: "B.Tech",
+    duration: "Dec 2021  - Apr 2025",
+    content1: "Major: Computer Science and Engineering (Cyber Security) ",
     
   },
-  {
-    id: "education-2",
-    icon: pba,
-    title: "Subharti University",
-    degree: "Bachelor in Maths",
-    duration: "May 2023 - Apr 2026",
-    content1: "Minor: Maths",
-  },
+  
 ];
 
 // Add your past achievments here for example - rankings in hackathons/events
@@ -163,11 +180,9 @@ export const achievements = [
   {
     id: "a-1",
     icon: ethglobal,
-    event: "ML Innovations in Financial Data",
-    position: "Featured in IIT Madras Newsletter",
-    content1: "Developed advanced ML and DL models for financial data analysis",
-    article: "https://epochs.netlify.app/##page/40",
-    github: "https://github.com/Sumitkumar005/Smart-Finance-with-Machine-Learning",
+    event: "College final year Projec",
+    content1: "DESIGN AND PERFORMANCE ANALYSIS OF AN ANTI-MALWARE SYSTEM BASED ON GENERATIVE ADVERSARIAL NETWORK FRAMEWORK",
+    
    
   },
 ];
@@ -185,8 +200,8 @@ export const skills = [
       },
       {
         id: "pl-3",
-        icon: SiCplusplus,
-        name: "C++",
+        icon: SiSqlite,
+        name: "SQL",
       },
       
       {
@@ -214,77 +229,56 @@ export const skills = [
     ],
   },
   {
-    title: "Frameworks/Libraries",
+    title: "Cybersecurity & Testing Tools",
     items: [
       {
         id: "f-1",
-        icon: SiDjango,
-        name: "Django",
+        icon: SiWireshark,
+        name: "Wireshark",
       },
       {
         id: "f-3",
-        icon: SiReact,
-        name: "ReactJS",
+        icon: SiSplunk,
+        name: "Splunk",
       },
       {
         id: "f-4",
-        icon: SiBootstrap,
-        name: "Bootstrap",
+        icon: SiSwagger,
+        name: "Swagger",
       },
       {
         id: "f-5",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
+        icon: SiJira,
+        name: "Jira",
       },
       {
         id: "icon-4",
-        icon: SiOpencv,
-        name: "Computer Vision"
+        icon: SiKalilinux,
+        name: "Kalilinux"
       },
      
       
 
-      {
-        id: "icon-7",
-        icon: SiPytorch,
-        name: "Keras"
-      },
-      {
-        id: "icon-8",
-        icon: SiTensorflow,
-        name: "TensorFlow"
-      },
-      {
-        id: "icon-9",
-        icon: SiPandas,
-        name: "Pandas"
-      },
-      {
-        id: "icon-10",
-        icon: SiNumpy,
-        name: "Numpy"
-      },
-      {
-        id: "icon-11",
-        icon: SiScikitlearn,
-        name: "Scikitlearn"
-      },
+      
+      
+      
+      
 
 
     ],
   },
   {
-    title: "Tools",
+    title: "Cybersecurity Domains",
     items: [
       {
         id: "t-1",
-        icon: SiMicrosoftazure,
-        name: "Azure",
+        icon: MdFindInPage,
+        name: "Manual Testing",
       },
       {
         id: "t-2",
-        icon: SiMysql,
-        name: "MySQL",
+        icon: MdOutlineAssessment,
+        name: "Vulnerability Assessment",
       },
       {
         id: "t-4",
@@ -303,18 +297,18 @@ export const skills = [
       },
       {
         id: "t-7",
-        icon: AiOutlineGitlab,
-        name: "Gitlab",
+        icon: MdSecurity,
+        name: " Penetration Testing",
       },
       {
         id: "t-8",
-        icon: SiNetlify,
-        name: "Netlify",
+        icon: FaShieldAlt,
+        name: "Malware Analysis",
       },
       {
         id: "t-9",
-        icon: SiVite,
-        name: "ViteJS",
+        icon: MdOutlineApi,
+        name: " API Testing",
       },
     ],
   },
@@ -324,13 +318,13 @@ export const skills = [
 export const experiences = [
   
   {
-    organisation: "HTS Tech Solutions, Pune(Maharashtra) India",
+    organisation: "SuperWiIT, India",
     logo: HTS,
-    link: "https://htstechsolutions.com/",
+    link: "",
     positions: [
       {
-        title: "Artificial Intelligence Intern(On-site)",
-        duration: "March 2025 - Present",
+        title: "Quality Assurance Tester(Remote)",
+        duration: "Dec 2024 – Present ",
         content: [
           {
             text: "",
@@ -344,7 +338,7 @@ export const experiences = [
         content: [
           
           {
-            text: " currently working on a Computer Vision project. and building real-world AI solutions while sharpening problem-solving skills.",
+            text: "Conducting penetration testing for clients across various industries, including education, healthcare, and finance.",
             link: ""
           }
         ],
@@ -352,27 +346,27 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Unified Mentor,Gurugram(Haryana) India",
+    organisation: "Chaitanya Cyber Strix Technologies Pvt Ltd, Hyderabad India",
     logo: oracle,
-    link: "https://www.unifiedmentor.com/",
+    link: "",
     positions: [
       {
-        title: "Machine Learning Intern(Remote)",
-        duration: "Dec 2024 - Feb 2025",
+        title: "SOC Analyst (Remote)",
+        duration: "Nov 2023 – Jan 2024",
         content: [
           {
-            text: "Working in the AI team, building scalable ML pipelines and predictive models.",
+            text: " Monitored and analyzed security events using SIEM tools such as Splunk to identify potential threats.",
             link: "",
           },
         ],
       },
       {
-        title: "Member of Unified Mentor(Remote)",
-        duration: "Sep 2024 - Nov 2024",
+        title: "Chaitanya Cyber Strix Technologies Pvt Ltd,(Remote)",
+        duration: "Sep 2023 – Oct 2024",
         content: [
           
           {
-            text: "Worked on hands-on ML projects, gained mentorship, and built end to end ML projects and improved problem-solving skills.",
+            text: "• Conducted detailed log analysis to detect suspicious activities and mitigate security incidents effectively.",
             link: ""
           }
         ],
@@ -380,47 +374,27 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Exposys Data Labs,Bengaluru(Karnataka) India",
+    organisation: "Zetpeak,Bengaluru(Karnataka) India",
     logo: averlon,
     link: "https://www.exposysdata.com/",
     positions: [
       {
-        title: "Software Developer Intern(Remote)",
-        duration: " Nov 2024 - Jan 2025",
+        title: "Cyber Security Researcher ",
+        duration: "Jul 2023 - Sep 2023",
         content: [
           {
-            text: "Built and optimized backend services, enhancing system performance and scalability. Worked on integrating APIs, improving database efficiency, and implementing robust solutions for real-world applications.",
+            text: " Researched tracking and surveillance spyware, analyzing functionalities and identifying potential risks.",
             link: ""
           },
           {
-            text: "Collaborated with the team to streamline development workflows and deliver high-quality software.",
+            text: " Gathered and analyzed spyware-related data to provide actionable insights for security improvement.",
             link: ""
           }
         ],
       },
     ],
   },
-  {
-    organisation: "Igniters, IITM BS Chennai(Tamil Nadu) India",
-    logo: iris,
-    link: "https://igniters.devvoy.com/",
-    positions: [
-      {
-        title: "Community Lead",
-        duration: "Dec 2024 - Present",
-        content: [
-          {
-            text: "leding a competitive programming community for 200+ students, creating structured learning paths, organizing coding challenges, and fostering a collaborative environment for growth on platforms like Codeforces and LeetCode.",
-            link: "",
-          },
-          {
-            text: "Led workshops and discussions, ensuring continuous skill development for members.",
-            link: "",
-          },
-        ],
-      },
-    ],
-  }
+  
 ];
 
 // Add information about all the projects to be listed out in your portfolio
@@ -428,126 +402,72 @@ export const projects = [
  
   {
     id: "project-2",
-    title: "Live Monitoring in warehouse",
-    github: "https://github.com/Sumitkumar005/Isourse-FlowVision",
+    title: "Ethical Hacking & Security Research",
+    github: "",
     
     image: greentrust,
     content:
-      " Fault Detection, Quality Inspection & Remote Monitoring System warehouse offers a novel solution.",
+      " Identified and reported critical vulnerabilities in the websites and networks of 15+ educational institutions.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: MdOutlineApi,
+        name: "API Testing"
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: MdOutlineAssessment,
+        name: "Vulnerability Assessment"
       },
       {
         id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
+        icon: FaShieldAlt,
+        name: "Malware Analysis"
       },
       {
         id: "icon-3",
-        icon: SiFlask,
-        name: "Flask"
-      },
-      {
-        id: "icon-4",
-        icon: SiOpencv,
-        name: "Computer Vision"
-      },
-     
-      
-
-      {
-        id: "icon-7",
-        icon: SiPytorch,
-        name: "Keras"
-      },
-      {
-        id: "icon-8",
-        icon: SiTensorflow,
-        name: "TensorFlow"
+        icon: FaNetworkWired,
+        name: "Network Security"
       },
 
     ],
   },
   {
     id: "project-3",
-    title: " RAG System in Chemical Industry ",
-    github: "https://github.com/Sumitkumar005/RAG-System-Knowledge-Base-Integration",
+    title: "Tracking & Surveillance Link Spyware",
+    github: "",
     image: chargeswap,
     content:
-      "Designed a RAG system for MES, enabling context-aware queries and smart factory operations.Built a Streamlit-based interface for multimodal QA, integrating text, audio, video, and image processing.",
+      " Conducted an in-depth analysis of spyware mechanisms used for tracking and surveillance in various systems.  Designed and proposed mitigation strategies, including technical and procedural countermeasures.",
     stack: [
       {
-        id: "icon-0",
-        icon: SiOpenai,
-        name: "OpenAI API"
-      },
-      
-      {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: MdOutlineApi,
+        name: "API Testing"
+      },
+      {
+        id: "icon-2",
+        icon: MdOutlineAssessment,
+        name: "Vulnerability Assessment"
       },
       {
         id: "icon-4",
-        icon: SiStreamlit,
-        name: "Streamlit"
-      }
+        icon: FaShieldAlt,
+        name: "Malware Analysis"
+      },
+      {
+        id: "icon-3",
+        icon: FaNetworkWired,
+        name: "Network Security"
+      },
+      {
+        id: "icon-3",
+        icon: MdFindInPage,
+        name: "Manual Testing"
+      },
     ],
   },
  
-  {
-    id: "project-5",
-    title: " Smart Finance with Machine Learning",
-    github: "https://github.com/Sumitkumar005/Smart-Finance-with-Machine-Learning",
-    
-    image: recruitment,
-    content:
-      " Implemented ML and deep learning models for stock prediction and anomaly detection",
-    stack: [
-      
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-      {
-        id: "icon-3",
-        icon: SiFlask,
-        name: "Flask"
-      },
-      {
-        id: "icon-4",
-        icon: SiOpencv,
-        name: "Computer Vision"
-      },
-     
-      
-
-      {
-        id: "icon-7",
-        icon: SiPytorch,
-        name: "Keras"
-      },
-      {
-        id: "icon-8",
-        icon: SiTensorflow,
-        name: "TensorFlow"
-      },
-    ],
-  },
  
 ];
 
@@ -634,16 +554,16 @@ export const extraCurricular = [
   
   {
     id: 4,
-    organisation: "Igniters, IITM BS",
+    organisation: "CyberSec Club, Self-Initiated",
     title: "Community Lead",
     duration: "Dec 2024 - Present",
     content: [
       {
-        text: "Led workshops and discussions, ensuring continuous skill development for members.",
+        text: "Founded and led a peer-based cybersecurity discussion group focused on real-world vulnerabilities, CTF challenges, and ethical hacking practices.",
         link: "",
       },
     ],
-    logo: iris,
+    logo: nitk,
   },
   
 ];
@@ -653,31 +573,31 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/sumit-kumar-02a145239/",
+    link: "https://www.linkedin.com/in/trivikram-yeluri/",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://github.com/Sumitkumar005",
+    link: "https://github.com/trivikram-yeluri",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:sumitkumar969074@gmail.com",
+    link: "mailto:Trivikramyeluri07@gmail.com |",
   },
   {
     id: "social-media-5",
     icon: AiFillInstagram,
-    link: "https://www.instagram.com/sumit.k.404/?hl=en",
+    link: "",
   },
 ];
 
 // Your professional summary
 export const aboutMe = {
-    name: "Sumit Kumar",
-    githubUsername: 'SumitKumar005',
-    tagLine: "AI/ML and Software Development Intern | IIT Madras'27",
-    intro: "AI/ML and Software Development Intern with hands-on experience in machine learning, full-stack development, and generative AI, including LLMs, RAG, and vector databases. Proficient in Python, TensorFlow, FastAPI, and cloud platforms (AWS, GCP). Adept at building AI-driven solutions, particularly in healthcare, automation, and finance."
+    name: "Trivikram Yeluri",
+    githubUsername: 'Trivikram-yeluri',
+    tagLine: "Cybersecurity Intern | Chalapathi Institute of Engineering and Technology'25 ",
+    intro: "Cybersecurity Intern skilled in penetration testing, SOC analysis, and vulnerability assessment. Hands-on with tools like Burp Suite, Nmap, and Splunk. Passionate about securing web apps and networks across diverse domains."
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.

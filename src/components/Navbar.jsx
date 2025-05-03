@@ -12,7 +12,7 @@ const Navbar = () => {
       <a href="#home">
         <img
           src={parthmittal}
-          alt="Sumit Kumar"
+          alt="Trivikram Yeluri "
           className="w-[80px] h-[80px]"
         />
       </a>
