@@ -180,7 +180,7 @@ export const achievements = [
   {
     id: "a-1",
     icon: ethglobal,
-    event: "College final year Projec",
+    event: "College final year Project",
     content1: "DESIGN AND PERFORMANCE ANALYSIS OF AN ANTI-MALWARE SYSTEM BASED ON GENERATIVE ADVERSARIAL NETWORK FRAMEWORK",
     
    
